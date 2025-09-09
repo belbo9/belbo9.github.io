@@ -2,25 +2,49 @@ name: Scrape Talk Locations
 
 on:
   push:
-    paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+    branches:
+    - master
+    - main
+
+  pull_request:
+    branches:
+    - master
+    - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: true
 
-    - name: Set up Python
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.5.4' 
+
+    - name: Set up Pytohn
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'  # Specify the Python version you need
+        python-version: '3.9'     
+
+    - name: Enable bundler cache
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
 
     - name: Install dependencies
       run: |
+        gem install bundler
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        npm install -g mermaid.cli
         pip install jupyter pandas requests beautifulsoup4 geopy  # Add other dependencies as needed
         pip install getorg --upgrade
 
@@ -28,10 +52,16 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
-    - name: Commit changes
+    - name: Configure Git
       run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit and push changes
+      run: |
         git add .
         git commit -m "Automated update of talk locations" || echo "No changes to commit"
         git push
+
+    - name: Deloy Webiste
+      run: yes | bash bin/deploy --verbose --src main --deploy gh-pages
