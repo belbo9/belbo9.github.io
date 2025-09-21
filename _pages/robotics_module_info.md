@@ -13,31 +13,28 @@ permalink: /talks/robotics_module_info/
 <div style="display: flex; gap: 10px; justify-content: center; align-items: flex-start;">
 
   <!-- YouTube Video -->
-  <div style="display: flex; flex-direction: column; align-items: center; width: 300px;">
-    <div style="position: relative; width: 100%; padding-bottom: 105%;"> <!-- matches 300x315 ratio -->
-      <iframe src="https://www.youtube.com/embed/-H2SYbATgDw" 
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-      </iframe>
-    </div>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <iframe src="https://www.youtube.com/embed/-H2SYbATgDw" 
+            title="YouTube video player"
+            width="300" height="315"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="display: block; border: none;">
+    </iframe>
     <span style="margin-top: 10px;">Figure 1: Milling Task</span>
   </div>
 
   <!-- Local Videos -->
-  <div style="display: flex; flex-direction: column; align-items: center; width: 300px;">
-    <div style="position: relative; width: 100%; padding-bottom: 105%;">
-      <video muted controls style="width: 100%; height: auto;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <video muted width="300" height="315" controls>
       <!--source src="/assets/videos/Deburring_RoboDK_Video_Converted.mp4" type="video/mp4"-->
-      </video>
-    </div?>
+    </video>
     <span style="margin-top: 10px;">Figure 2: Deburring Task</span>
   </div>
 
-  <div style="display: flex; flex-direction: column; align-items: center; width: 300px;">
-    <video muted controls style="width: 100%; height: auto;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <video muted width="300" height="315" controls>
       <!--source src="/assets/videos/Welding_RoboDK_Video_Converted.mp4" type="video/mp4"-->
     </video>
     <span style="margin-top: 10px;">Figure 3: Welding Task</span>
