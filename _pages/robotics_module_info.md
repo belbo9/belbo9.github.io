@@ -10,42 +10,49 @@ permalink: /talks/robotics_module_info/
 <!--RoboDK Work Section-->
 <h2 style="text-align: center; margin-bottom: 0.5em;">RoboDK Offline Programming</h2>
 
-<div style="display: flex; gap: 10px; justify-content: center; align-items: flex-start;">
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <!-- YouTube Video -->
+  <!-- Video 1 -->
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <iframe src="https://www.youtube.com/embed/-H2SYbATgDw" 
-            title="YouTube video player"
-            width="300" height="315"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            style="display: block; border: none;">
+    <iframe 
+      src="https://www.youtube.com/embed/-H2SYbATgDw" 
+      title="YouTube video player"
+      width="350" height="197"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="border: none;">
     </iframe>
     <span style="margin-top: 10px;">Figure 1: Milling Task</span>
   </div>
 
+  <!-- Video 2 -->
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <iframe width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/Zbuuk0audX0?si=f6XsPXG57UvfEdVQ" title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen></iframe>
+    <iframe 
+      width="350" height="197" 
+      src="https://www.youtube.com/embed/Zbuuk0audX0" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="border: none;">
+    </iframe>
     <span style="margin-top: 10px;">Figure 2: Welding Task</span>
   </div>
 
+  <!-- Video 3 -->
   <div style="display: flex; flex-direction: column; align-items: center;">
     <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/Zm06OF7Cao0?si=uUCbnKo9pezyM3b7" title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen></iframe>
+      width="350" height="197" 
+      src="https://www.youtube.com/embed/Zm06OF7Cao0" 
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      style="border: none;">
+    </iframe>
     <span style="margin-top: 10px;">Figure 3: Deburring Task</span>
   </div>
-
 
 </div>
 
