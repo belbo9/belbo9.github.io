@@ -28,9 +28,11 @@ permalink: /talks/robotics_module_info/
 
   <!-- Local Videos -->
   <div style="display: flex; flex-direction: column; align-items: center; width: 300px;">
-    <video muted controls style="width: 100%; height: auto;">
+    <div style="position: relative; width: 100%; padding-bottom: 105%;">
+      <video muted controls style="width: 100%; height: auto;">
       <!--source src="/assets/videos/Deburring_RoboDK_Video_Converted.mp4" type="video/mp4"-->
-    </video>
+      </video>
+    </div?>
     <span style="margin-top: 10px;">Figure 2: Deburring Task</span>
   </div>
 
