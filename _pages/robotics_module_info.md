@@ -16,15 +16,15 @@ permalink: /talks/robotics_module_info/
     <!--video muted width="300" height="315" controls-->
       <!--source src="/assets/videos/Milling_RoboDK_Video_Converted.mp4" type="video/mp4"-->
     <!--/video-->
-    <div style="position: relative; width: 100%; padding-bottom: 105%;">
-      <iframe width="300" height="315" 
-        src="https://www.youtube.com/embed/-H2SYbATgDw?si=SIa-n7q-_P5wYDF5" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
-      </iframe>
-    </div>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+    <iframe width="300" height="315" 
+      src="https://www.youtube.com/embed/-H2SYbATgDw" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen
+      style="display:block;">
+    </iframe>
     <span style="margin-top: 10px;">Figure 1: Milling Task</span>
   </div>
 
