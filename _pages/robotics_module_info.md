@@ -25,20 +25,27 @@ permalink: /talks/robotics_module_info/
     <span style="margin-top: 10px;">Figure 1: Milling Task</span>
   </div>
 
-  <!-- Local Videos -->
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <video muted width="300" height="315" controls>
-      <!--source src="/assets/videos/Deburring_RoboDK_Video_Converted.mp4" type="video/mp4"-->
-    </video>
-    <span style="margin-top: 10px;">Figure 2: Deburring Task</span>
+    <iframe width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/Zbuuk0audX0?si=f6XsPXG57UvfEdVQ" title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+    <span style="margin-top: 10px;">Figure 2: Welding Task</span>
   </div>
 
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <video muted width="300" height="315" controls>
-      <!--source src="/assets/videos/Welding_RoboDK_Video_Converted.mp4" type="video/mp4"-->
-    </video>
-    <span style="margin-top: 10px;">Figure 3: Welding Task</span>
+    <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/Zm06OF7Cao0?si=uUCbnKo9pezyM3b7" title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen></iframe>
+    <span style="margin-top: 10px;">Figure 3: Deburring Task</span>
   </div>
+
 
 </div>
 
