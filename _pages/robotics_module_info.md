@@ -68,7 +68,7 @@ Each task began with setting up the station, including the robot, frames, target
 </p>
 
 <p style="font-size: 14px;">
-The TCP (Tool Centre Point) was also provided a frame and this refers to the operating position and orientation of the tool, with respect to the robot flange (tip of the robot). Examples are the tip of a welding gun or or in the middle of gripper fingers. The TCP should match the target positions when the robot is in operation. Once this stage was done, the robot was than provided the target points by moving the robot to the desired position and declaring it a target point. Approach and retract positions were also included to ensure collision-free movement. I did also face difficulties when singularities were faced 
+The TCP (Tool Centre Point) was also provided a frame and this refers to the operating position and orientation of the tool, with respect to the robot flange (tip of the robot). Examples are the tip of a welding gun or or in the middle of gripper fingers. The TCP should match the target positions when the robot is in operation. Once this stage was done, the robot was than provided the target points by moving the robot to the desired position and declaring it a target point. Approach and retract positions were also included to ensure collision-free movement. I did also face difficulties when singularities were faced which can be seen in the deburring video at (0:15), which required inefficient movements as shown. 
 </p>
 
 
