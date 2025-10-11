@@ -73,9 +73,8 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Pick and Place Robotic Arm</h2>
-
-<!-- Deburring Video -->
-  <div style="width: 233px;">
+<!--Pick and place task vid-->
+  <div style="width: 350px; margin: 0 auto; text-align: center;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe 
         width="350" height="197" 
@@ -86,5 +85,5 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
         style="border: none;">
       </iframe>
     </div>
-    <span style="display: block; text-align: center; margin-top: 10px;">Figure 3: Deburring Task</span>
+    <span style="display: block; text-align: center; margin-top: 10px;">Figure 4: Pick-and-place Robotic Arm Task</span>
   </div>
