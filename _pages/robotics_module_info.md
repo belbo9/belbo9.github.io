@@ -85,5 +85,9 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
         style="border: none;">
       </iframe>
     </div>
-    <span style="display: block; text-align: center; margin-top: 10px;">Figure 4: Pick-and-place Robotic Arm Task</span>
+    <span style="display: block; text-align: center; margin-top: 10px;">Figure 4: Pick-and-place robotic arm task</span>
   </div>
+
+  <p style="font-size: 14px;">
+  T
+  </p>
