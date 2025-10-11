@@ -73,3 +73,18 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Pick and Place Robotic Arm</h2>
+
+<!-- Deburring Video -->
+  <div style="width: 233px;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe 
+        width="350" height="197" 
+        src="https://youtube.com/shorts/GSOhORPYmpA" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="border: none;">
+      </iframe>
+    </div>
+    <span style="display: block; text-align: center; margin-top: 10px;">Figure 3: Deburring Task</span>
+  </div>
