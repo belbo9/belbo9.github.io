@@ -136,5 +136,5 @@ final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0
 was set as a constant. Within the for loop, a delay of 100ms was added so that the total time the
 robot takes to move is equal to 5s. Target points were declared as home, pick and place positions
 and the robot is programmed using the for loop to go in the order home → pick → home → place →
-home. The header source and sketch files for the project are attached below.s
+home. The header, source and sketch files for the project are attached below.s
 </p>
