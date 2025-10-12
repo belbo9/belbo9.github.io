@@ -131,12 +131,10 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 
 <p style="font-size: 14px;">
 A for loop was employed to compute 50 trajectory points for x, y, and z between the initial and
-final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1. The robot then uses
+final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1 seconds. The robot then uses
 ‘InverseKinematics.m’ code to move the robot to each point. The task required 𝑡2 = 5𝑠 so this
 was set as a constant. Within the for loop, a delay of 100ms was added so that the total time the
-robot take to move is equal to 5s. Target points were declared as home, pick and place positions
+robot takes to move is equal to 5s. Target points were declared as home, pick and place positions
 and the robot is programmed using the for loop to go in the order home → pick → home → place →
-home. This sequence continues until the robot power is oB. For simplicity and easy following,
-the code saves the for loop and other sections, such as inverse kinematics, as functions (shown
-in table below). These functions are then called into the main program.
+home. The header source and sketch files for the project are attached below.s
 </p>
