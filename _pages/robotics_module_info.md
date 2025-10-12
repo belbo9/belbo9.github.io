@@ -88,7 +88,7 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
     <span style="display: block; text-align: center; margin-top: 10px;">Figure 4: Pick-and-place robotic arm task</span>
   </div>
 
-  <p style="font-size: 14px;">
+  <p style="margin-top: 30px; font-size: 14px;">
   This project focused on building and controlling a 4DOF freedom robot arm. A Arduino Duemoilanove inspired 'BotBoarduino' as the microprocessor. HiTec servo motors were useed to control each joint. There were 3 total tasks which included an Inverse Kinematics Task where the arm had to move to ensure it's end effector followed a horzintal linear motion both 5cm in the positive and negative x directions. This project completed with a pick-and-place task in which a demonstration by our team's robot shown above. We used a geometric apporach wehn using inverse kinematics to obtian the required joint angles for end effector actuation for the pick-and-place task. The cubic polynominal and fucniton definitions used were as follows:
   </p>
   
@@ -126,6 +126,17 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
   a_{i3} = -\frac{2}{t_f^3} \left( u_{fi} - u_{0i} \right)
   \]
 
-
 </body>
 </html>
+
+<p style="font-size: 14px;">
+A for loop was employed to compute 50 trajectory points for x, y, and z between the initial and
+final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1. The robot then uses
+‘InverseKinematics.m’ code to move the robot to each point. The task required 𝑡2 = 5𝑠 so this
+was set as a constant. Within the for loop, a delay of 100ms was added so that the total time the
+robot take to move is equal to 5s. Target points were declared as home, pick and place positions
+and the robot is programmed using the for loop to go in the order home → pick → home → place →
+home. This sequence continues until the robot power is oB. For simplicity and easy following,
+the code saves the for loop and other sections, such as inverse kinematics, as functions (shown
+in table below). These functions are then called into the main program.
+</p>
