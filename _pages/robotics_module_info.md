@@ -105,7 +105,7 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
   u(t) = 
   \begin{cases} 
   a_0 + a_1 t + a_2 t^2 + a_3 t^3 & \text{if } t \le t_f \\[2mm]
-  u_f & \text{if } t \ge t_f
+  \displaystyle u_f & \text{if } t \ge t_f
   \end{cases}
   \]
 
