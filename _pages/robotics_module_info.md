@@ -72,7 +72,7 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 </p>
 
 
-<h2 style="text-align: center; margin-bottom: 0.5em;">Pick and Place Robotic Arm</h2>
+<h2 style="text-align: center; margin-bottom: 0.5em;">Pick and Place Robot Arm</h2>
 <!--Pick and place task vid-->
   <div style="width: 350px; margin: 0 auto; text-align: center;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -131,10 +131,10 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 
 <p style="font-size: 14px;">
 A for loop was employed to compute 50 trajectory points for x, y, and z between the initial and
-final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1 seconds. The robot then uses
-‘InverseKinematics.m’ code to move the robot to each point. The task required 𝑡2 = 5𝑠 so this
-was set as a constant. Within the for loop, a delay of 100ms was added so that the total time the
+final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1 seconds. The cubic polynominal function shown above is used to calculate the coordinates within each time step in the trajectory path. The 'Set_Position' member contains the inverse kinematics script which caluculates the required joint angles to actuate the motors. Within the for loop, a delay of 100ms was added so that the total time the
 robot takes to move is equal to 5s. Target points were declared as home, pick and place positions
 and the robot is programmed using the for loop to go in the order home → pick → home → place →
-home. The header, source and sketch files for the project are attached below.s
+home. The header, source and sketch files for the project are attached below.
 </p>
+
+<a href="files/project.zip" download>Download Project</a>
