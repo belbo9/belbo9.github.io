@@ -109,5 +109,23 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
   \end{cases}
   \]
 
+
+  \[
+    a_{i0} = u_{0i}
+  \]
+
+  \[
+  a_{i1} = 0
+  \]
+
+  \[
+  a_{i2} = \frac{3}{t_f^2} \left( u_{fi} - u_{0i} \right)
+  \]
+
+  \[
+  a_{i3} = -\frac{2}{t_f^3} \left( u_{fi} - u_{0i} \right)
+  \]
+
+
 </body>
 </html>
