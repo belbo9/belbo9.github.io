@@ -89,4 +89,25 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
   </div>
 
   <p style="font-size: 14px;">
-  This project focused on building and controlling a 4DOF freedom robot arm. A Arduino Duemoilanove inspired 'BotBoarduino' as the microprocessor. HiTec servo motors were useed to control each joint. There were 3 total tasks which included an Inverse Kinematics Task where the arm had to move to ensure it's end effector followed a horzintal linear motion both 5cm in the positive and negative x directions. This project completed with a pick-and-place task in whihc a demonstration by our team's robot shown above. We used a geometric apporach wehn using inverse kinematics to obtian the required joint angles for end effector actuaiton for the pick-and-plac task 
+  This project focused on building and controlling a 4DOF freedom robot arm. A Arduino Duemoilanove inspired 'BotBoarduino' as the microprocessor. HiTec servo motors were useed to control each joint. There were 3 total tasks which included an Inverse Kinematics Task where the arm had to move to ensure it's end effector followed a horzintal linear motion both 5cm in the positive and negative x directions. This project completed with a pick-and-place task in which a demonstration by our team's robot shown above. We used a geometric apporach wehn using inverse kinematics to obtian the required joint angles for end effector actuation for the pick-and-place task. The cubic polynominal and fucniton definitions used were as follows:
+  </p>
+  
+  <html>
+  <head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+  </head>
+
+  <body>
+  \[ 
+  u(t) = 
+  \begin{cases} 
+  a_0 + a_1 t + a_2 t^2 + a_3 t^3 & \text{if } t \le t_f \\[2mm]
+  u_f & \text{if } t \ge t_f
+  \end{cases}
+  \]
+
+</body>
+</html>
