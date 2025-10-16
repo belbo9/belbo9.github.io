@@ -33,7 +33,13 @@ main:
         url: /talks/robotics_module_info/
 
   - title: "Extracurricular Projects"
-    url: /cv/
+    url: /extracurricular_projects/
+    children:
+      - title: "IMECHE Design Challenge"
+        url: /extracurricular_projects/imeche_challenge/
+      - title: "UCL Rover"
+        url: /extracurricular_projects/ucl_rover/
+
         
   - title: "Blog"
     url: /year-archive/
