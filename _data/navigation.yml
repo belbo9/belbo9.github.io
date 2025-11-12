@@ -42,9 +42,6 @@ main:
     children:
       - title: "Bentley Motors Industrial Placement"
         url: /work_experience/bentley_industrial_placement/
-
-  - title: "Blog"
-    url: /year-archive/
     
   - title: "CV"
     url: /cv-json/
