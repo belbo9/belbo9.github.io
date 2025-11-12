@@ -40,6 +40,10 @@ The IMECHE Design Challenge is an annual competition, where teams are presented 
 
 </div>
 
+<p style="margin-top: 30px; font-size: 14px;">
+The regional design, shown on the right, included a tower structure to hold a laser for calibration. This ensured the vehicle was correctly aligned with the target before it began moving. The PCB I designed for this version also contained a greater number of components, including a seven-segment display. However, the design for the national challenge, shown on the left, did not include the laser tower. Our team realized we could use an external laser and incorporate a miniature leadscrew mechanism to assist with initial calibration. Since the laser was not part of the device itself, it did not count towards the budget—essentially allowing us to find a loophole that improved cost efficiency. In addition, the PCB for the national design contained fewer components and featured JST connectors, enabling a more modular and maintainable setup. I also personally crimped and created the wiring harnesses. These wires were more flexible, which helped reduce stress on the connections and prevented potential connection issues.
+</p>
+
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <img src="{{ '/assets/images/Nationals_Design.png' | relative_url }}"
