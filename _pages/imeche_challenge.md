@@ -16,11 +16,8 @@ permalink: /extracurricular_projects/imeche_challenge/
   <img src="{{ '/assets/images/IMECHE_Pic1.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-  <img src="{{ '/assets/images/Winning_Pic.png' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-
-  <!-- YouTube video embed -->
-  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <!-- Embedded YouTube video in place of the 3rd image -->
+  <div style="height: 300px; width: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <iframe
       src="https://www.youtube.com/embed/-H2SYbATgDw"
       frameborder="0"
