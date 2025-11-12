@@ -37,7 +37,12 @@ main:
       - title: "UCL Rover"
         url: /extracurricular_projects/ucl_rover/
 
-        
+  - title: "Work Experience"
+    url: /work_experience/
+    children:
+      - title: "Bentley Motors Industrial Placement"
+        url: /work_experience/bentley_industrial_placement/
+
   - title: "Blog"
     url: /year-archive/
     

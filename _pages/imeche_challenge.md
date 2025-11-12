@@ -53,3 +53,7 @@ The regional design, shown on the right, included a tower structure to hold a la
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
+
+<p style="margin-top: 30px; font-size: 14px;">
+As electronics leda myself, I was responsible for selecitng the required compoennts 
+</p>
