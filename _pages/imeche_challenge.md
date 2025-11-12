@@ -30,5 +30,12 @@ permalink: /extracurricular_projects/imeche_challenge/
 </div>
 
 <p style="margin-top: 30px; font-size: 14px;">
-The IMECHE Design Challenge is an annual competition, where teams are presented with a different design task each year. Our year were tasked to create a repeatable target detecting vehicle. The vehicle was required to traverse on 1m wide lane over a range of distances from 1.4m - 4.0m. 2 targets where placed, where the vehicle had to start on the first target, approach a 0.3m vertical wall, return back to the first target adn then stop on the second target placed anywhere within the longitudinal range. 
+The IMECHE Design Challenge is an annual competition, where teams are presented with a different design task each year. Our year were tasked to create a repeatable target detecting vehicle. The vehicle was required to traverse on 1m wide lane over a range of distances from 1.4m - 4.0m. 2 targets where placed, where the vehicle had to start on the first target, approach a 0.3m vertical wall, return back to the first target adn then stop on the second target placed anywhere within the longitudinal range. The CAD files can be seen below for both the regionals design and nationals design: 
 </p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/Nationals_Image.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
