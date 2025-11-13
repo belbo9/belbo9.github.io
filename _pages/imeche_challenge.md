@@ -63,7 +63,7 @@ As electronics lead, I was responsible for selecting components for the vehicleâ
   <img src="{{ '/assets/images/Regionals_PCB_Schematic.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-  <img src="{{ '/assets/images/Nationals_PCB_Schematics.png' | relative_url }}"
+  <img src="{{ '/assets/images/Nationals_PCB_Schematic.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
