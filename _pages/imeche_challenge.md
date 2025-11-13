@@ -67,3 +67,15 @@ As electronics lead, I was responsible for selecting components for the vehicleâ
        alt="Nationals PCB Schematic"
        style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </div>
+
+
+
+<p style="margin-top: 30px; font-size: 14px;">
+Our teamâ€™s journey was featured on the ANSYS Global Blog. The article can be found here:: https://www.ansys.com/en-gb/blog/ucl-c-2024-imeche-design-challenge-ansys-simulation-challenge
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
