@@ -59,11 +59,11 @@ As electronics lead, I was responsible for selecting components for the vehicleâ
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-
   <img src="{{ '/assets/images/Regionals_PCB_Schematic.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
   <img src="{{ '/assets/images/Nationals_PCB_Schematic.png' | relative_url }}"
+       alt="Nationals PCB Schematic"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-
 </div>
