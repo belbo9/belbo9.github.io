@@ -10,16 +10,10 @@ permalink: /extracurricular_projects/ucl_rover/
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <img src="{{ '/assets/images/IMECHE_Pic1.png' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-
-  <img src="{{ '/assets/images/Winning_Pic.png' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-
   <!-- YouTube video embed -->
   <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
      <iframe
-     src="https://www.youtube.com/embed/TkeMYuPy7JM"
+     src="https://www.youtube.com/embed/mfXc6P1sw9M"
      frameborder="0"
      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen
