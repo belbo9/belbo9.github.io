@@ -1,0 +1,81 @@
+---
+title: ""
+layout: single
+permalink: /extracurricular_projects/ucl_rover/
+---
+
+<!--Page Title-->
+<h1 style="text-align: center;">UCL Rover Team Experience</h1>
+
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/IMECHE_Pic1.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Winning_Pic.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <!-- YouTube video embed -->
+  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+     <iframe
+     src="https://www.youtube.com/embed/TkeMYuPy7JM"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+     </iframe>
+   </div>
+
+</div>
+
+<p style="margin-top: 30px; font-size: 14px;">
+The IMECHE Design Challenge is an annual competition, where teams are presented with a different design task each year. Our year were tasked to create a repeatable target detecting vehicle. The vehicle was required to traverse on 1m wide lane over a range of distances from 1.4m - 4.0m. 2 targets where placed, where the vehicle had to start on the first target, approach a 0.3m vertical wall, return back to the first target adn then stop on the second target placed anywhere within the longitudinal range. The CAD files can be seen below for both the regionals design and nationals design: 
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/Nationals_Image.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
+
+<p style="margin-top: 30px; font-size: 14px;">
+The regional design, shown on the right, included a tower structure to hold a laser for calibration. This ensured the vehicle was correctly aligned with the target before it began moving. The PCB I designed for this version also contained a greater number of components, including a seven-segment display. However, the design for the national challenge, shown on the left, did not include the laser tower. Our team realized we could use an external laser and incorporate a miniature leadscrew mechanism to assist with initial calibration. Since the laser was not part of the device itself, it did not count towards the budget—essentially allowing us to find a loophole that improved cost efficiency. In addition, the PCB for the national design contained fewer components and featured JST connectors, enabling a more modular and maintainable setup. I also personally crimped and created the wiring harnesses. These wires were more flexible, which helped reduce stress on the connections and prevented potential connection issues.
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/Nationals_Design.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Regionals_Design.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
+
+<p style="margin-top: 30px; font-size: 14px;">
+As electronics lead, I was responsible for selecting components for the vehicle’s drive, target detection, and control systems. A NEMA 17 stepper motor was chosen for precise positioning and repeatability, essential for consistently reaching the bullseye. A limit switch ensured the motor reversed when the vehicle hit a wall, while an infrared sensor detected the outer black boundary of the target, providing a more reliable response than the originally planned color sensor. The DRV8825 motor driver enabled 1/4 microstepping for increased accuracy, and a touch sensor required a 3-second hold to start the vehicle. An Arduino Nano served as the microcontroller due to its compact size. Two 9V batteries powered the stepper motor, and one 9V battery powered the Arduino. A Bel resettable fuse was included to meet competition regulations and allow safe prototyping, while a capacitor smoothed voltage fluctuations for the motor. The national design followed a similar approach but omitted the seven-segment displays used for team name and battery monitoring, resulting in a more compact and streamlined design. The electrical schematics for both versions are shown below: the regional design is on the left, and the national design is on the right.
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/Regionals_PCB_Schematic.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Nationals_PCB_Schematic.png' | relative_url }}"
+       alt="Nationals PCB Schematic"
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
+
+
+
+<p style="margin-top: 30px; font-size: 14px;">
+Our team’s journey was featured on the ANSYS Global Blog. The article can be found here:: https://www.ansys.com/en-gb/blog/ucl-c-2024-imeche-design-challenge-ansys-simulation-challenge
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
