@@ -8,7 +8,7 @@ permalink: /extracurricular_projects/ucl_rover/
 <h1 style="text-align: center;">UCL Rover Team Experience</h1>
 
 <p style="margin-stop: 30px; font-size: 14px;">
-The UCL Rover Team is a student-led organisation dedicated to designing, building, and testing a rover for the annual European Rover Challenge. Bringing together students from mechanical engineering, computer science, electrical engineering, biomedical engineering, and other disciplines, the team focuses on creating innovative robotic systems capable of performing designated tasks. Now in my third year on the team, I spent my first two years working on the Science Cache—where I eventually became the subsystem lead—before moving into the Robotic Arm team to take on new challenges and broaden my experience. Through hands-on engineering, collaboration, and a shared passion for discovery, the UCL Rover Team continues to develop its capabilities while showcasing the technical excellence and creativity of UCL. Below are the 2 videos shown for the 2024 and 2025 video submissions for the ERC competition:
+The UCL Rover Team is a student-led organisation of around 20 selected students, dedicated to designing, building, and testing a rover for the annual European Rover Challenge. Bringing together students from mechanical engineering, computer science, electrical engineering, biomedical engineering, and other disciplines, the team focuses on creating innovative robotic systems capable of performing designated tasks. Now in my third year on the team, I spent my first two years working on the Science Cache—where I eventually became the subsystem lead—before moving into the Robotic Arm team to take on new challenges and broaden my experience. Through hands-on engineering, collaboration, and a shared passion for discovery, the UCL Rover Team continues to develop its capabilities while showcasing the technical excellence and creativity of UCL. Below are the videos submitted for the 2024 and 2025 ERC competitions:
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
@@ -28,7 +28,7 @@ The UCL Rover Team is a student-led organisation dedicated to designing, buildin
 
 </div>
 
-<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Science Cache Experience</h2>
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Science Cache</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
 During my time working on the Science Cache, I helped design and build a subsystem capable of extracting, weighing, and analysing chemical samples of regolith and soil. The system used an auger drill to reach a depth of 30 cm and incorporated a load cell to measure sample weight with 0.1 g accuracy. We also integrated an Adafruit spectroscopy sensor to collect detailed soil data. To achieve precise movement and positioning, we designed a double lead-screw gantry system. Our design successfully met three key European Rover Challenge regulations, demonstrating both accuracy and reliability in performing designated scientific tasks.
