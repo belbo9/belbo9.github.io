@@ -31,7 +31,7 @@ The UCL Rover Team is a student-led organisation of around 20 selected students,
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Science Cache</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
-During my time working on the Science Cache, I helped design and build a subsystem capable of extracting, weighing, and analysing chemical samples of regolith and soil. The system used an auger drill to reach a depth of 30 cm and incorporated a load cell to measure sample weight with 0.1 g accuracy. We also integrated an Adafruit spectroscopy sensor to collect detailed soil data. To achieve precise movement and positioning, we designed a double lead-screw gantry system. Our design successfully met three key European Rover Challenge regulations, demonstrating both accuracy and reliability in performing designated scientific tasks.
+During my time as the Science Cache subsystem lead, I designed and built a mechanism capable of extracting, weighing, and analysing regolith and soil samples within a team of 2. The system used an auger drill capable of reaching depths of up to 30 cm, and incorporated a load cell that provided sample mass measurements with 0.1 g accuracy. We also integrated an Adafruit spectroscopy sensor to capture detailed chemical and mineral data from the extracted samples. To ensure precise movement and alignment during drilling and sampling, we developed a double lead-screw gantry system, which provided stable and repeatable positioning across the full operating range. Our final design met three key European Rover Challenge regulations, demonstrating its accuracy, reliability, and suitability for scientific field tasks. The subsystem consists of an outer and inner frame: the outer frame mounts to the rover via an onboard C-Beam, while the inner frame houses the auger drill, the load-cell container, and the spectroscopy sensor. Images of the subsystem design—both as a standalone unit and integrated onto the rover—can be seen below. 
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
@@ -41,8 +41,10 @@ During my time working on the Science Cache, I helped design and build a subsyst
 
 </div>
 
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Robotic Arm</h2>
+
 <p style="margin-top: 30px; font-size: 14px;">
-The regional design, shown on the right, included a tower structure to hold a laser for calibration. This ensured the vehicle was correctly aligned with the target before it began moving. The PCB I designed for this version also contained a greater number of components, including a seven-segment display. However, the design for the national challenge, shown on the left, did not include the laser tower. Our team realized we could use an external laser and incorporate a miniature leadscrew mechanism to assist with initial calibration. Since the laser was not part of the device itself, it did not count towards the budget—essentially allowing us to find a loophole that improved cost efficiency. In addition, the PCB for the national design contained fewer components and featured JST connectors, enabling a more modular and maintainable setup. I also personally crimped and created the wiring harnesses. These wires were more flexible, which helped reduce stress on the connections and prevented potential connection issues.
+After completing my year in industry, I joined the UCL Rover Team’s robotic arm sub-team, where my primary focus is developing a harmonic drive mechanism for the elbow joint to improve precision and reduce backlash. I also aim to integrate visual servoing capabilities using the ROS 2 control stack I began building as a personal project over the summer. This system—currently under active development—is available on my GitHub under the project title 'Visual Servoing Arm'. The current arm design, shown below, includes a cycloidal gearbox, which introduced a small amount of backlash during last year’s operations. My work this year focuses on addressing these limitations and improving the arm’s accuracy and reliability.
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
@@ -54,6 +56,25 @@ The regional design, shown on the right, included a tower structure to hold a la
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
+
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">London Youth Robotic Conference 2023</h2>
+
+Durig teh summer in 2023, alonsigde 3 other engineerins within the team, we were invited to showcase UCL's Mars Rover as part of the first ever London Youth Robotics Conference at St Paul Girls School. Images of teh event are shown below:
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/London_Youth_Robotics_Conference.jpg' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Regionals_Design.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
+
+
+
+
+
 
 <p style="margin-top: 30px; font-size: 14px;">
 As electronics lead, I was responsible for selecting components for the vehicle’s drive, target detection, and control systems. A NEMA 17 stepper motor was chosen for precise positioning and repeatability, essential for consistently reaching the bullseye. A limit switch ensured the motor reversed when the vehicle hit a wall, while an infrared sensor detected the outer black boundary of the target, providing a more reliable response than the originally planned color sensor. The DRV8825 motor driver enabled 1/4 microstepping for increased accuracy, and a touch sensor required a 3-second hold to start the vehicle. An Arduino Nano served as the microcontroller due to its compact size. Two 9V batteries powered the stepper motor, and one 9V battery powered the Arduino. A Bel resettable fuse was included to meet competition regulations and allow safe prototyping, while a capacitor smoothed voltage fluctuations for the motor. The national design followed a similar approach but omitted the seven-segment displays used for team name and battery monitoring, resulting in a more compact and streamlined design. The electrical schematics for both versions are shown below: the regional design is on the left, and the national design is on the right.
