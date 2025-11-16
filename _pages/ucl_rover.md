@@ -67,7 +67,7 @@ During the summer of 2023, alongside three other engineers from the team, we wer
        style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
   <img src="{{ '/assets/images/London_Youth_Robotics_Conference_Image.jpg' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
 
