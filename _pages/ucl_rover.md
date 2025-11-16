@@ -36,7 +36,7 @@ During my time as the Science Cache subsystem lead, I designed and built a mecha
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <img src="{{ '/assets/images/Nationals_Image.png' | relative_url }}"
+  <img src="{{ '/assets/images/Science_Cache_Image.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
