@@ -64,7 +64,7 @@ During the summer of 2023, alongside three other engineers from the team, we wer
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <img src="{{ '/assets/images/London_Youth_Robotics_Conference.jpg' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
   <img src="{{ '/assets/images/London_Youth_Robotics_Conference_Image.jpg' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
@@ -72,32 +72,3 @@ During the summer of 2023, alongside three other engineers from the team, we wer
 </div>
 
 
-
-
-
-
-<p style="margin-top: 30px; font-size: 14px;">
-As electronics lead, I was responsible for selecting components for the vehicle’s drive, target detection, and control systems. A NEMA 17 stepper motor was chosen for precise positioning and repeatability, essential for consistently reaching the bullseye. A limit switch ensured the motor reversed when the vehicle hit a wall, while an infrared sensor detected the outer black boundary of the target, providing a more reliable response than the originally planned color sensor. The DRV8825 motor driver enabled 1/4 microstepping for increased accuracy, and a touch sensor required a 3-second hold to start the vehicle. An Arduino Nano served as the microcontroller due to its compact size. Two 9V batteries powered the stepper motor, and one 9V battery powered the Arduino. A Bel resettable fuse was included to meet competition regulations and allow safe prototyping, while a capacitor smoothed voltage fluctuations for the motor. The national design followed a similar approach but omitted the seven-segment displays used for team name and battery monitoring, resulting in a more compact and streamlined design. The electrical schematics for both versions are shown below: the regional design is on the left, and the national design is on the right.
-</p>
-
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-  <img src="{{ '/assets/images/Regionals_PCB_Schematic.png' | relative_url }}"
-       alt="Regionals PCB Schematic"
-       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-
-  <img src="{{ '/assets/images/Nationals_PCB_Schematic.png' | relative_url }}"
-       alt="Nationals PCB Schematic"
-       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-</div>
-
-
-
-<p style="margin-top: 30px; font-size: 14px;">
-Our team’s journey was featured on the ANSYS Global Blog. The article can be found here:: https://www.ansys.com/en-gb/blog/ucl-c-2024-imeche-design-challenge-ansys-simulation-challenge
-</p>
-
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
-       alt="Regionals PCB Schematic"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-</div>
