@@ -59,14 +59,14 @@ After completing my year in industry, I joined the UCL Rover Team’s robotic ar
 
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">London Youth Robotic Conference 2023</h2>
 
-Durig teh summer in 2023, alonsigde 3 other engineerins within the team, we were invited to showcase UCL's Mars Rover as part of the first ever London Youth Robotics Conference at St Paul Girls School. Images of teh event are shown below:
+During the summer of 2023, alongside three other engineers from the team, we were invited to showcase UCL's Mars Rover at the first-ever London Youth Robotics Conference held at St Paul’s Girls’ School. Images from the event are shown below:
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <img src="{{ '/assets/images/London_Youth_Robotics_Conference.jpg' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-  <img src="{{ '/assets/images/Regionals_Design.png' | relative_url }}"
+  <img src="{{ '/assets/images/London_Youth_Robotics_Conference_Image.jpg' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
