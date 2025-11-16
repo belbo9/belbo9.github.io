@@ -49,11 +49,39 @@ After completing my year in industry, I joined the UCL Rover Team’s robotic ar
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <img src="{{ '/assets/images/Nationals_Design.png' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <!-- Robotic Arm Video 1 -->
+  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+     <iframe
+     src="https://www.youtube.com/embed/mfXc6P1sw9M"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+     </iframe>
+   </div>
 
-  <img src="{{ '/assets/images/Regionals_Design.png' | relative_url }}"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <!-- Robotic Arm Video 2 -->
+  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+     <iframe
+     src="https://www.youtube.com/embed/aKRWgA4IqFo"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+     </iframe>
+   </div>
+
+   <!-- Robotic Arm Video 3 -->
+  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+     <iframe
+     src="https://www.youtube.com/embed/HN7xd6HWZgo?si=HN7xd6HWZgo"
+     frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+     allowfullscreen
+     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+     </iframe>
+   </div>
+
 
 </div>
 
