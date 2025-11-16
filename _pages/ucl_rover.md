@@ -39,6 +39,10 @@ During my time as the Science Cache subsystem lead, I designed and built a mecha
   <img src="{{ '/assets/images/Science_Cache_Image.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
+  <img src="{{ '/assets/images/Full_Rover_with_Science_Cache.png' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+
 </div>
 
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Robotic Arm</h2>
@@ -87,7 +91,9 @@ After completing my year in industry, I joined the UCL Rover Team’s robotic ar
 
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">London Youth Robotic Conference 2023</h2>
 
+<p style="margin-top: 30px; font-size: 14px;">
 During the summer of 2023, alongside three other engineers from the team, we were invited to showcase UCL's Mars Rover at the first-ever London Youth Robotics Conference held at St Paul’s Girls’ School. Images from the event are shown below:
+</p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
