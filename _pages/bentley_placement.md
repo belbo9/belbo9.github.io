@@ -91,15 +91,16 @@ My daily work within the ADAS team focused on verification and validation of fun
 
 </div>
 
-<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">London Youth Robotic Conference 2023</h2>
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Product Maintenance Placement</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
-During the summer of 2023, alongside three other engineers from the team, we were invited to showcase UCL's Mars Rover at the first-ever London Youth Robotics Conference held at St Paul’s Girls’ School. Images from the event are shown below:
+My 3 week placement in the production maintenance team focused on developing a simulation environment for the Unitree Go2 Edu quadruped. The aim of the quadruped is to navigate autonomously around the factory floor to detect leaks and equipment overheating around the factory. Using ROS2, I was able to simulate autonomous navigation of the quadruped through waypoint navigation along with realistic gait generation of the robot using the Nav2 and SLAM frameworks. This would be one of the first ‘spot robots’ to be used in the VW group. A video introducing the idea cna be found via the following link:
+https://www.linkedin.com/feed/update/urn:li:activity:7371935211560968192/.
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <img src="{{ '/assets/images/London_Youth_Robotics_Conference.jpg' | relative_url }}"
+  <img src="{{ '/assets/images/Bentley_Spot_Bot.jpg' | relative_url }}"
        style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
   <img src="{{ '/assets/images/London_Youth_Robotics_Conference_Image.jpg' | relative_url }}"
