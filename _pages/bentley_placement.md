@@ -16,7 +16,10 @@ My placement year at Bentley Motors has provided me with a detailed experience o
   <img src="{{ '/assets/images/Bentley_Picture.jpg' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-</div>
+  <img src="{{ '/assets/images/Bentley_Picture_New.jpg' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>s
 
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Launch Quality Centre (Factory Problem Solving team)</h2>
 
