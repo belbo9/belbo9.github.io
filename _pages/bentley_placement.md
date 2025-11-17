@@ -5,10 +5,10 @@ permalink: /work_experience/bentley_industrial_placement/
 ---
 
 <!--Page Title-->
-<h1 style="text-align: center;">UCL Rover Team Experience</h1>
+<h1 style="text-align: center;">My Industrial Placement at Bentley </h1>
 
 <p style="margin-stop: 30px; font-size: 14px;">
-The UCL Rover Team is a student-led organisation of around 20 selected students, dedicated to designing, building, and testing a rover for the annual European Rover Challenge. Bringing together students from mechanical engineering, computer science, electrical engineering, biomedical engineering, and other disciplines, the team focuses on creating innovative robotic systems capable of performing designated tasks. Now in my third year on the team, I spent my first two years working on the Science Cache—where I eventually became the subsystem lead—before moving into the Robotic Arm team to take on new challenges and broaden my experience. Through hands-on engineering, collaboration, and a shared passion for discovery, the UCL Rover Team continues to develop its capabilities while showcasing the technical excellence and creativity of UCL. Below are the videos submitted for the 2024 and 2025 ERC competitions:
+My placement year at Bentley Motors has provided me with a detailed experience of the ways-of-working and development process within the automotive industry. My placement year consisted of rotations within the Manufacturing and Research & Development divisions.
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
@@ -28,10 +28,11 @@ The UCL Rover Team is a student-led organisation of around 20 selected students,
 
 </div>
 
-<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Science Cache</h2>
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Launch Quality Centre (Factory Problem Solving team)</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
-During my time as the Science Cache subsystem lead, I designed and built a mechanism capable of extracting, weighing, and analysing regolith and soil samples within a team of 2. The system used an auger drill capable of reaching depths of up to 30 cm, and incorporated a load cell that provided sample mass measurements with 0.1 g accuracy. We also integrated an Adafruit spectroscopy sensor to capture detailed chemical and mineral data from the extracted samples. To ensure precise movement and alignment during drilling and sampling, we developed a double lead-screw gantry system, which provided stable and repeatable positioning across the full operating range. Our final design met three key European Rover Challenge regulations, demonstrating its accuracy, reliability, and suitability for scientific field tasks. The subsystem consists of an outer and inner frame: the outer frame mounts to the rover via an onboard C-Beam, while the inner frame houses the auger drill, the load-cell container, and the spectroscopy sensor. Images of the subsystem design—both as a standalone unit and integrated onto the rover—can be seen below. 
+I completed this rotation from August 2024 to February 2025. My daily tasks within the LQC focused on solving manufacturing issues faced on preseries and current vehicles. I worked on 6 different manufacturing issues during my rotation which all focused on Bentayga vehicles. I used the 8D methodology to solve issues which began with identifying the root cause of the issue, all the way to conducting a lessons learnt process. My KPM projects required cross-functional collaboration with colleagues form different areas of the business. Leading the
+analysis of a punctured HV cable issue was a great example of this, which required collaboration with the production, engineering body and trim team as well as the launch team to develop a viable solution leading to a €100k cost save. Alongside KPM projects worked on, I also worked on 2 data processing projects for the entire Launch Quality Centre team. I developed a tool to automate postprocessing of gap and flush data points around the vehicle using Macro VBA, saving around 3 hours of analysis time per 20 vehicles. The tool was also used to identify upstream processes on the production line causing audit failures, as part of a line process change trialled earlier in my placement year. The project focused on providing real-time KPM data tracker for the Factory Problem Solving team breaking issues down by categories such as model year, variant and calendar year. This has also been added to the LQC’s section of Bentley’s intranet website for use by all colleagues. 
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
