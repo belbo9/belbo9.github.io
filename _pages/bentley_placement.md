@@ -98,7 +98,7 @@ My 3 week placement in the production maintenance team focused on developing a s
 https://www.linkedin.com/feed/update/urn:li:activity:7371935211560968192/.
 </p>
 
-<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+<div style="display: flex; gap: 100px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <img src="{{ '/assets/images/Bentley_Spot_Bot.png' | relative_url }}"
        style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
