@@ -94,8 +94,7 @@ My daily work within the ADAS team focused on verification and validation of fun
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Product Maintenance Placement</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
-My 3 week placement in the production maintenance team focused on developing a simulation environment for the Unitree Go2 Edu quadruped. The aim of the quadruped is to navigate autonomously around the factory floor to detect leaks and equipment overheating around the factory. Using ROS2, I was able to simulate autonomous navigation of the quadruped through waypoint navigation along with realistic gait generation of the robot using the Nav2 and SLAM frameworks. This would be one of the first ‘spot robots’ to be used in the VW group. A video introducing the idea cna be found via the following link:
-https://www.linkedin.com/feed/update/urn:li:activity:7371935211560968192/.
+My 3 week placement in the production maintenance team focused on developing a simulation environment for the Unitree Go2 Edu quadruped. The aim of the quadruped is to navigate autonomously around the factory floor to detect leaks and equipment overheating around the factory. Using ROS2, I was able to simulate autonomous navigation of the quadruped through waypoint navigation along with realistic gait generation of the robot using the Nav2 and SLAM frameworks. This would be one of the first ‘spot robots’ to be used in the VW group. A video introducing the idea can be found via the following link on LinkedIn :https://www.linkedin.com/feed/update/urn:li:activity:7371935211560968192/.
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
@@ -103,7 +102,20 @@ https://www.linkedin.com/feed/update/urn:li:activity:7371935211560968192/.
   <img src="{{ '/assets/images/Bentley_Spot_Bot.png' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-  <img src="{{ '/assets/images/London_Youth_Robotics_Conference_Image.jpg' | relative_url }}"
+</div>
+
+<h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Summary</h2>
+
+<p style="margin-top: 30px; font-size: 14px;">
+My cross-departmental work meant I was nomianted for the 'Industrial Placement Student of the Year' award in which I managed to secure a top 8 place!!! My industrial placement has allowed me to experience a holistic viewpoint of the automotive sector. In manufacturing, I learnt and applied a completely different problem-solving methodology and developed my ability to liaise cross-functionally all around the business. My time in the ADAS Vehicle Motion team has allowed me to utilise technical skills and engineering concepts on 3 simulation-based projects, assisting the department in Bentley’s goal of accelerating through the Product Emergency Process phases of vehicle development, but also significantly reduce physical usage. Not only have I been able to interact with a diverse range of people within the company, but through supplier engagement and meetings with stakeholders including Dynisma, ANSYS and IPG Automotive, I’ve been able to get an insight into the technological advancements within the automotive world.
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/Bentley_Award_Picture.jpg' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Bentley_Booth_Picture.JPG' | relative_url }}"
        style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
