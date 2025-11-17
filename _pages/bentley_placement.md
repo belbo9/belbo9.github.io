@@ -13,18 +13,8 @@ My placement year at Bentley Motors has provided me with a detailed experience o
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
-  <!-- 2024 ERC Video Submission -->
-  <div style="width: 300px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-     <iframe
-     src="https://www.youtube.com/embed/mfXc6P1sw9M"
-     frameborder="0"
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-     allowfullscreen
-     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-     </iframe>
-   </div>
-
-   <!-- 2025 ERC Video Submission -->
+  <img src="{{ '/assets/images/Bentley_Picture.jpg' | relative_url }}"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
 
@@ -107,7 +97,7 @@ My 3 week placement in the production maintenance team focused on developing a s
 <h2 style="text-align: center; margin-bottom: 0.2em; border: none; text-decoration: none;">Summary</h2>
 
 <p style="margin-top: 30px; font-size: 14px;">
-My cross-departmental work meant I was nomianted for the 'Industrial Placement Student of the Year' award in which I managed to secure a top 8 place!!! My industrial placement has allowed me to experience a holistic viewpoint of the automotive sector. In manufacturing, I learnt and applied a completely different problem-solving methodology and developed my ability to liaise cross-functionally all around the business. My time in the ADAS Vehicle Motion team has allowed me to utilise technical skills and engineering concepts on 3 simulation-based projects, assisting the department in Bentley’s goal of accelerating through the Product Emergency Process phases of vehicle development, but also significantly reduce physical usage. Not only have I been able to interact with a diverse range of people within the company, but through supplier engagement and meetings with stakeholders including Dynisma, ANSYS and IPG Automotive, I’ve been able to get an insight into the technological advancements within the automotive world.
+My cross-departmental work meant I was nomianted for the 'Industrial Placement Student of the Year' award in which I managed to secure a top 8 place out of a cohort of 100+!!! My industrial placement has allowed me to experience a holistic viewpoint of the automotive sector. In manufacturing, I learnt and applied a completely different problem-solving methodology and developed my ability to liaise cross-functionally all around the business. My time in the ADAS Vehicle Motion team has allowed me to utilise technical skills and engineering concepts on 3 simulation-based projects, assisting the department in Bentley’s goal of accelerating through the Product Emergency Process phases of vehicle development, but also significantly reduce physical usage. Not only have I been able to interact with a diverse range of people within the company, but through supplier engagement and meetings with stakeholders including Dynisma, ANSYS and IPG Automotive, I’ve been able to get an insight into the technological advancements within the automotive world.
 </p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
