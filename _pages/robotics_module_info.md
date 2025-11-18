@@ -8,7 +8,7 @@ permalink: /talks/robotics_module_info/
 <h1 style="text-align: center;">Module Projects</h1>
 
 <!--RoboDK Work Section-->
-<h2 style="text-align: center; margin-bottom: 0.5em;">RoboDK Offline Programming</h2>
+<h2 style="text-align: center; margin-bottom: 0.5em;">Year 1: RoboDK Offline Programming</h2>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
@@ -72,7 +72,7 @@ The TCP (Tool Centre Point) was also provided a frame and this refers to the ope
 </p>
 
 
-<h2 style="text-align: center; margin-bottom: 0.5em;">Pick and Place Robot Arm</h2>
+<h2 style="text-align: center; margin-bottom: 0.5em;">Year 1: Pick and Place Robot Arm</h2>
 <!--Pick and place task vid-->
   <div style="width: 350px; margin: 0 auto; text-align: center;">
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
