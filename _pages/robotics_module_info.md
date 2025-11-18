@@ -147,8 +147,48 @@ home. The header, source and sketch files for the project are attached below.
 <p style="font-size: 14px;">
 This was the first project of my 2nd year taking this elective module. This built upon image processing fundamentals learnt which indluded threshdoling, Gaussain filters, median filters, Sorbel filters etc. Alongisde this, methods of obtaining the orietnation and centroid of an object within an image was also covered. In this project there were 2 tasks with the first focused on identifying the centroids and drawing a bounding box for different fruits within a given image. The next focused on determining the centrodi adn oreintaiotn of an object within another image as well as the perimeter. To carry out the first task, I carried out the follwing steps:
 
-- My inital 
+<ul style="font-size: 14px;">
+  <li>My initial</li>
+</ul>
 
 
-Whilst the image was now preporcessed, I then applied the 'Connected Component's algorithm whihc uses a Breadth-First Search. This works by essentially starting at one pixel within the image, tehn if another image is one of the 8 direct neighbours of the pixel, it gets labelled with the same class as the original pixel. This is efficeint as it means that groups of connected pixels are labelled accorindlgy and worked perfectly in this case as groups of pixels indicated the differnt fruits here, with the largest intensity of pixels in a specific region correlating to the fruit that is being looked for. The image below show this funciotnaing and successfully idenityfing the capsiscum, apple and lemon as required by the task
+Whilst the image was now preporcessed, I then applied the 'Connected Component's algorithm whihc uses a Breadth-First Search. This works by essentially starting at one pixel within the image, tehn if another image is one of the 8 direct neighbours of the pixel, it gets labelled with the same class as the original pixel. This is efficeint as it means that groups of connected pixels are labelled accorindlgy and worked perfectly in this case as groups of pixels indicated the differnt fruits here, with the largest intensity of pixels in a specific region correlating to the fruit that is being looked for. The image below show this funciotnaing and successfully idenityfing the capsiscum, apple and lemon as required by the task.
+</p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</div>
+
+<p style="font-size: 14px;">
+A for loop was employed to compute 50 trajectory points for x, y, and z between the initial and
+final points, with the loop iterating from t = 0 to t <= 𝑡2 in intervals of 0.1 seconds. The cubic polynominal function shown above is used to calculate the coordinates within each time step in the trajectory path. The 'Set_Position' member contains the inverse kinematics script which caluculates the required joint angles to actuate the motors. Within the for loop, a delay of 100ms was added so that the total time the
+robot takes to move is equal to 5s. Target points were declared as home, pick and place positions
+and the robot is programmed using the for loop to go in the order home → pick → home → place →
+home. The header, source and sketch files for the project are attached below.
 </p>
