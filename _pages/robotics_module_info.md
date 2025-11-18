@@ -139,7 +139,7 @@ home. The header, source and sketch files for the project are attached below.
 
 <!--Need to figure out how to make the folder isntallable-->
 <div style="text-align: center;">
-  <a href="files/Robotics_Module_Project.7z" download>Project Files</a>
+  <a href="/files/Robotics_Module_Project.7z" download>Project Files</a>
 </div>
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Year 2: Image Processing and Object Detection Project</h2>
