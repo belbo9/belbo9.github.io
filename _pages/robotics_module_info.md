@@ -163,11 +163,11 @@ Whilst the image was now preporcessed, I then applied the 'Connected Component's
 
   <img src="{{ '/assets/images/Apple_Detection.png' | relative_url }}"
        alt="Regionals PCB Schematic"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
-  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+  <img src="{{ '/assets/images/Lemon_Detection.png' | relative_url }}"
        alt="Regionals PCB Schematic"
-       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
 
