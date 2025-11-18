@@ -21,11 +21,11 @@ main:
     url: /talks/  
     children:
       - title: "Year 1"
-        url:
+        url: /talks/year_1_work/
       - title: "Year 2"
-        url:
+        url: /talks/year_2_work/
       - title: "Year 3"
-        url:  
+        url: /talks/year_3_work/
       - title: "Robotics Additional Module"
         url: /talks/robotics_module_info/
 

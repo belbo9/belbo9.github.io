@@ -139,7 +139,7 @@ home. The header, source and sketch files for the project are attached below.
 
 <!--Need to figure out how to make the folder isntallable-->
 <div style="text-align: center;">
-  <a href="/files/Robotics_Module_Project.7z" download>Project Files</a>
+  <a href="/files/Robotics_Module_Project.7z" download>Pick and Place Arm Project Files</a>
 </div>
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Year 2: Image Processing and Object Detection Project</h2>
@@ -188,3 +188,21 @@ Whilst the image was now preporcessed, I then applied the 'Connected Component's
 <p style="font-size: 14px;">
 The next part of the task focused on identifying the orientation and centroid of an object within an image. Since the image had a distinct color gradient between the foreground and background, only thresholding was required for preprocessing. To determine the centroid, image moments were used, which calculate the weighted average of pixel intensities. The orientation was computed using second-order image moments. Additionally, the eigenvalues and eigenvectors were used to construct the inertia matrix, which defines the major and minor axes of the object. To calculate the perimeter of the object, the Sobel filter was first applied to extract the edges. Once the edges were detected, the Neighbour-Moore Trace algorithm was employed. This algorithm uses the 8-connected neighbours to follow the boundary pixels around the object. Previously, I had used a simpler method that selected the next pixel based solely on the top-left high-intensity neighbour in a 3×3 grid. However, this sometimes caused the algorithm to loop incorrectly around boundary pixels, producing an inaccurate perimeter. The Neighbour-Moore Trace solves this issue by considering the previous neighbour’s position and starting two positions before it, effectively “hugging” the object boundary. This approach produced the correct perimeter. The images below show the analysed object, including the area that previously caused issues with perimeter calculation. The code for both tasks is also provided below and is available for download to see the implementation in action:
 
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/IMECHE_ANSYS_Blog.png' | relative_url }}"
+       alt="Regionals PCB Schematic"
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
+
+<div style="text-align: center;">
+  <a href="/files/Image_Processing_Tasks_Code.7z" download>Image Detection Project Files</a>
+</div>
