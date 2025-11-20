@@ -14,7 +14,7 @@ permalink: /talks/year_1_work/
 This project was part of the Design and Proffesional Skills module. Each stuednt was provided with a Creality Ender 3 printer in whihc w had to assembel ourselves and print out the respective parts for a Stirling Engine. Below is a video showing each part of the Stirling Engine being printed:
 </p>
 
-<div style="width: 233px;">
+<div style="width: 233px; margin: 0 auto;">   <!-- centers the container -->
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe
         width="350" height="197" 
@@ -25,14 +25,13 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
         style="position: absolute; top:0; left:0; width:100%; height:100%; border: none;">
       </iframe>
     </div>
-    <span style="display: block; text-align: center; margin-top: 10px;">Figure 1: Milling Task</span>
 </div>
 
 <p style="font-size: 14px;">
 After this, the stirling engine was then assmebled and tested to see how long it could run for whilst on top of a single hot mug of water. The Stirling Engine works by cycling air between a hot and cold side using a displacer piston. When the air moves to the hot side it expands and pushes the power piston, and when it moves to the cold side it contracts and pulls it back. This repeating pressure change drives the crankshaft and flywheel, allowing the engine to spin continuously.
 </p>
 
-<div style="width: 233px;">
+<div style="width: 233px; margin: 0 auto;">   <!-- centers the container -->
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe
         width="350" height="197" 
@@ -43,6 +42,5 @@ After this, the stirling engine was then assmebled and tested to see how long it
         style="position: absolute; top:0; left:0; width:100%; height:100%; border: none;">
       </iframe>
     </div>
-    <span style="display: block; text-align: center; margin-top: 10px;">Figure 1: Milling Task</span>
 </div>
 
