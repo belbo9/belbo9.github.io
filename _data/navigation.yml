@@ -20,12 +20,8 @@ main:
   - title: "Undergraduate Work"
     url: /talks/  
     children:
-      - title: "Year 1"
+      - title: "Undergraduate Core Module Projects"
         url: /talks/year_1_work/
-      - title: "Year 2"
-        url: /talks/year_2_work/
-      - title: "Year 3"
-        url: /talks/year_3_work/
       - title: "Robotics Additional Module"
         url: /talks/robotics_module_info/
 
