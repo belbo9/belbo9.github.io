@@ -44,3 +44,13 @@ After this, the stirling engine was then assmebled and tested to see how long it
     </div>
 </div>
 
+<h2 style="text-align: center; margin-bottom: 0.5em;">Arduino Based Stirling Engine Work</h2>
+
+<p style="margin-top: 30px; font-size: 14px;">
+In this project, an Arduino-based low-temperature Stirling engine was used to collect real-time measurements. Three sensors were used: a lower-temperature sensor positioned near the cold reservoir, an upper-temperature sensor positioned near the hot reservoir, and a light sensor aimed at the flywheel spokes to detect each rotation and determine the engine’s RPM. Once the experimental data were gathered, post-processing was carried out to calculate both the Carnot efficiency and the Chambadal–Novikov efficiency. The results showed a clear positive correlation between temperature difference and both efficiency values, with the Carnot efficiency consistently higher because it represents the theoretical maximum efficiency of a perfectly reversible cycle. In contrast, the Chambadal–Novikov efficiency gives a more realistic estimate because it accounts for irreversibilities such as heat losses and friction within the engine. Ways to increase the efficiency for this experiment would have been to increase the temperature gradient, improve heat insulation, reduce mechanical friction through lubrication of the piston rods, and optimizing the phase angle and dead-space volume. An image of the Stirling engine setup used in this experiment is shown below. Additionally, the accompanying Jupyter notebook provides a step-by-step walkthrough of the code implementation and the analysis of the Stirling engine’s performance.
+</p>
+
+<div style="text-align: center; margin-top: 20px;">
+  <a href="/files/Arduino_Stirling_Engine_Project.ipynb" download>Stirling Engine Analysis Jupyter Notebook</a>
+</div>
+
