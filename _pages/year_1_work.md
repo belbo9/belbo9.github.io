@@ -27,17 +27,11 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
     </div>
 </div>
 
-<div style="width: 233px; margin: 0 auto;">   
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe
-        width="350" height="197" 
-        src="https://www.youtube.com/embed/6m-51JdF1vE"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        style="position: absolute; top:0; left:0; width:100%; height:100%; border: none;">
-      </iframe>
-    </div>
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+
+  <img src="{{ '/assets/images/Arduino_Stirling_Engine_Efficiency.png' | relative_url }}"
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
 </div>
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Arduino Based Stirling Engine Measurement Task</h2>
