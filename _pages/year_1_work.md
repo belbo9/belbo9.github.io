@@ -15,7 +15,7 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
 </p>
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <div style="width: 350px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <div style="width: 200px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
       src="https://www.youtube.com/embed/Bpgt76rbVkM"
       frameborder="0"
@@ -25,7 +25,7 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
     </iframe>
   </div>
 
-  <div style="width: 350px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <div style="width: 200px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
     <iframe
       src="https://www.youtube.com/embed/6m-51JdF1vE"
       frameborder="0"
