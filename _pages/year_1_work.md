@@ -21,7 +21,7 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-      style="position: absolute; top:0; left:0; width:100%; height:100%; border: none;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
     </iframe>
   </div>
 
@@ -31,7 +31,7 @@ This project was part of the Design and Proffesional Skills module. Each stuednt
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
-      style="position: absolute; top:0; left:0; width:100%; height:100%; border: none;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
     </iframe>
   </div>
 </div>
