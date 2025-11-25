@@ -83,7 +83,7 @@ This module focused on designing an impeller based on client requirements. In my
   An Eco-Audit assessing material quantity, process impacts, mass, and end-of-life considerations.</li> 
 </ul>
 
-<p style="margin-top: 30px; font-size: 8px;">
+<p style="margin-top: 20px; font-size: 14px;">
 I thoroughly enjoyed this project as it provided a holistic understanding of the multidisciplinary factors involved in engineering product development. It strengthened my knowledge of manufacturing processes and deepened my understanding of the considerations behind high-performance impeller design. I also gained experience using ANSYS EduPack—tools I later applied effectively during the IMechE Design Challenge.
 
 The final impeller was SLS-printed and tested using an industrial-grade pump, achieving an efficiency of approximately 35%. While this is relatively low, it is expected given that the prototype was printed in nylon rather than aluminium. Rendered images of the impeller, MPI comparison plots, the printed part and mounting assembly are shown below, and the full project report is available for download.
