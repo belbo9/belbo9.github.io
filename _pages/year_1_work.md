@@ -83,11 +83,21 @@ This module focused on designing an impeller based on client requirements. In my
   An Eco-Audit assessing material quantity, process impacts, mass, and end-of-life considerations.</li> 
 </ul>
 
-<p style="margin-top: 30px; font-size: 14px;">
+<p style="margin-top: 30px; font-size: 8px;">
 I thoroughly enjoyed this project as it provided a holistic understanding of the multidisciplinary factors involved in engineering product development. It strengthened my knowledge of manufacturing processes and deepened my understanding of the considerations behind high-performance impeller design. I also gained experience using ANSYS EduPack—tools I later applied effectively during the IMechE Design Challenge.
 
-The final impeller was SLS-printed and tested using an industrial-grade pump, achieving an efficiency of approximately 35%. While this is relatively low, it is expected given that the prototype was printed in nylon rather than aluminium. Rendered images of the impeller, MPI comparison plots, the printed part, mounting assembly, and pump setup are shown below, and the full project report is available for download.
+The final impeller was SLS-printed and tested using an industrial-grade pump, achieving an efficiency of approximately 35%. While this is relatively low, it is expected given that the prototype was printed in nylon rather than aluminium. Rendered images of the impeller, MPI comparison plots, the printed part and mounting assembly are shown below, and the full project report is available for download.
 </p>
+
+<div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap margin-top: 40px;">
+
+  <img src="{{ '/assets/images/Impeller_Picture.png' | relative_url }}"
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+  <img src="{{ '/assets/images/Impeller_Ashby_Plot.png' | relative_url }}"
+       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+
+</div>
 
 
 
