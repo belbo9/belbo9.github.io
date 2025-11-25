@@ -4,9 +4,6 @@ layout: single
 permalink: /talks/year_1_work/
 ---
 
-<!--Page Title-->
-<h1 style="text-align: center;">Year 1 Projects</h1>
-
 <!--Year 1 Work-->
 <h2 style="text-align: center; margin-bottom: 0.5em;">3D Printed Stirling Engine Project</h2>
 
