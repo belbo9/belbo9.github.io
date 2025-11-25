@@ -72,6 +72,7 @@ For this project, an Arduino-based Stirling engine was used to record a range of
 
 <p style="margin-top: 30px; font-size: 14px;">
 This module focused on designing an impeller based on client requirements. In my project, the brief was to design an impeller for an implantable ventricular assist device that had to fit within a 100 mm housing. I produced a full technical report documenting the entire design process, covering the following core areas:
+</p>
 
 <ul style="font-size: 14px;"> 
   <li><strong>Problem Definition:</strong> Identification of functions, objectives (including an objective tree), and key constraints.</li> 
@@ -85,6 +86,7 @@ This module focused on designing an impeller based on client requirements. In my
   An Eco-Audit assessing material quantity, process impacts, mass, and end-of-life considerations.</li> 
 </ul>
 
+<p style="margin-top: 30px; font-size: 14px;">
 I thoroughly enjoyed this project as it provided a holistic understanding of the multidisciplinary factors involved in engineering product development. It strengthened my knowledge of manufacturing processes and deepened my understanding of the considerations behind high-performance impeller design. I also gained experience using ANSYS EduPack—tools I later applied effectively during the IMechE Design Challenge.
 
 The final impeller was SLS-printed and tested using an industrial-grade pump, achieving an efficiency of approximately 35%. While this is relatively low, it is expected given that the prototype was printed in nylon rather than aluminium. Rendered images of the impeller, MPI comparison plots, the printed part, mounting assembly, and pump setup are shown below, and the full project report is available for download.
