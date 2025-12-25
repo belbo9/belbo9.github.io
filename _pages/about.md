@@ -7,5 +7,5 @@ redirect_from:
   - /about.html
 ---
 
-Hi!
+Hi! I am Belkaceme Bella, an ambitious 21-year-old currently studying Mechanical Engineering at University College London.
 
