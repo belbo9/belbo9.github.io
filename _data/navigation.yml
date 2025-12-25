@@ -8,14 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  #- title: "About Me"
-    #url: /about_me/
-    #children:
-      #- title: "Background Information"
+  - title: "About Me"
+    url: /about_me/
+    children:
+      - title: "Background Information"
         #url: /about_me/background_info/
         
-      #- title: "Proffesional Experience"
-        #url: 
+      - title: "Proffesional Experience"
+        url: 
 
   - title: "Undergraduate Work"
     url: /talks/  
