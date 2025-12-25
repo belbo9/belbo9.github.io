@@ -39,6 +39,6 @@ main:
       - title: "Bentley Motors Industrial Placement"
         url: /work_experience/bentley_industrial_placement/
     
-  - title: "CV"
-    url: /cv-json/
+  #- title: "CV"
+  #  url: /cv-json/
     
