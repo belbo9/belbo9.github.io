@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/assets/images/profile.png"
+  avatar           : "assets/images/profile.png"
   name             : "Belkaceme Bella"
   pronouns         : # example: "she/her"  
   bio              : ""
@@ -30,7 +30,7 @@ author:
   employer         : "University College London"
   uri              : # URL
   email            : "belkacem8bella@outlook.com" 
-  linkedin         : "www.linkedin.com/in/belkacem-bella"
+  linkedin         : www.linkedin.com/in/belkacem-bella
 
   # Academic websites
   academia         : # URL
