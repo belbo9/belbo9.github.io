@@ -30,7 +30,7 @@ author:
   employer         : "University College London"
   uri              : # URL
   email            : "belkacem8bella@outlook.com" 
-  linkedin         : # URL
+  linkedin         : "www.linkedin.com/in/belkacem-bella"
 
   # Academic websites
   academia         : # URL
@@ -271,14 +271,6 @@ defaults:
       share: true
       comments: true
  
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
