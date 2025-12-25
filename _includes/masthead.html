@@ -17,7 +17,7 @@
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+            <li class="masthead__menu-item"><a class="top-nav-label">{{ link.title }}</a>
             
               <!--I'm trying to put a dropdown or an addition for the chdilren tabs as well here-->
             {% if link.children %}
