@@ -100,7 +100,7 @@ The final impeller was SLS-printed and tested using an industrial-grade pump, ac
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="/files/Impeller_Project_Report.pdf" download>Stirling Engine Analysis Jupyter Notebook</a>
+  <a href="/files/Impeller_Project_Report.pdf" download>Impeller Project Project Report</a>
 </div>
 
 
