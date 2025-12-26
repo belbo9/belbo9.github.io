@@ -7,9 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I’m Belkaceme Bella, a 21 year old Mechanical Engineering student at University College London with a strong interest in robotics for healthcare innovation. This interest first took shape in sixth form, when I joined the OxNet programme, an access scheme that exposes students to different areas of engineering; my stream focused on AI and robotics. I was particularly inspired by a lecture on probabilistic robotics by Nick Hawes, which showed how uncertainty and decision making can be formalised in autonomous systems and pushed me to explore robotics more seriously.
-
-During sixth form, I participated in the UCL Project Impactive Challenge, working in a team of four to design a cupholder for individuals with cerebral palsy. Whilst I was able to exercise my 3D modelling skills, the project gave me an appreciation for how engineering can have profound impact on accessibility problems faced, improving daily life. Both early experiences in my education shaped my career goal, to be at the forefront at the intersection of robotics and healthcare, using advances in autonomous systems to develop technologies that support patients and clinicians.
+<p style="margin-top: 30px; font-size: 14px;">
+Hi, I’m Belkaceme Bella, a 21 year old Mechanical Engineering student at University College London with a strong interest in robotics for healthcare innovation. This interest first took shape in sixth form, when I joined the OxNet programme, an access scheme that exposes students to different areas of engineering; my stream focused on AI and robotics. I was particularly inspired by a lecture on probabilistic robotics by Nick Hawes, which showed how uncertainty and decision making can be formalised in autonomous systems and pushed me to explore robotics more seriously. During sixth form, I participated in the UCL Project Impactive Challenge, working in a team of four to design a cupholder for individuals with cerebral palsy. My team came first place, beaitng 9 other teams within London. Whilst I was able to exercise my 3D modelling skills, the project gave me an appreciation for how engineering can have profound impact on accessibility problems faced, improving daily life. Both early experiences in my education shaped my career goal, to be at the forefront at the intersection of robotics and healthcare, using advances in autonomous systems to develop technologies that support patients and clinicians.
 
 My projects and experiences since then have bene focused around developing the skills required to break into the field of healthcare robotics. I’ve been a senior member of the UCL Rover team with this being my 3rd year running, where I have worked within a multidisciplinary team of 23 selected students to prepare our rover for the annual European Rover Challenge. I’ve led the design of the science cache, responsible for extracting, weighing and analysing regolith samples. I developed my teamwork skills by coordinating weekly team meetings to share technical updates and ensure key design decisions were made collectively. 
 
@@ -17,12 +16,13 @@ In my second year, I worked in a team of 5 to participate within the IMECHE Desi
 
 As a third year Mechanical Engineering student, my individual project brings together my mechatronics background and interest in healthcare by developing an autonomous robot to validate ventilation performance in operating theatres. The project, supervised by Professor Ian Eames, forms part of a wider effort to improve operating theatre layouts across the UK. The technical and research skills I have developed at UCL are preparing me for the next step in my education, where I plan to pursue the MSc in Human and Biological Robotics at Imperial College London, focusing on biomimetic design and assistive robotics for healthcare.
 
-Outside of engineering, I am an avid sportsperson and have competed in athletics, football, and swimming. I have represented the London Borough of Waltham Forest at the London Youth Games in the 50 m breaststroke, won gold in the 1500 m at the Essex Indoor Athletics Championships with Orion Harriers, and reached the U15 London Cup Finals in football. These experiences have helped me develop resilience, discipline, and teamwork—qualities that strongly influence how I approach both engineering projects and collaborative research.
+Outside of academia, I am an avid sportsperson and have competed in athletics, football, and swimming. I have represented the London Borough of Waltham Forest at the London Youth Games in the 50 m breaststroke, won gold in the 1500 m at the Essex Indoor Athletics Championships with Orion Harriers, and reached the U15 London Cup Finals in football. These experiences have helped me develop resilience, discipline, and teamwork—qualities that strongly influence how I approach both engineering projects and collaborative research.
+</p>
 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
   <img src="{{ '/assets/images/Football_Pictures_3.png' | relative_url }}"
-       style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+       style="height: 300px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 
 </div>
 
