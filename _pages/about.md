@@ -2,10 +2,14 @@
 permalink: /
 title: "Introduction"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
+
+<div style="text-align: center;">
+  <h1>Introduction</h1>
+</div>
 
 <p style="margin-top: 30px; font-size: 16px;">
 Hi, I’m Belkaceme Bella, a 21 year old Mechanical Engineering student at University College London with a strong interest in robotics for healthcare innovation. This interest first took shape in sixth form, when I was selected for the OxNet programme, an access scheme that introduces students to different areas of engineering, with my stream focused on AI and robotics. I was particularly inspired by a lecture on probabilistic robotics by Nick Hawes, which demonstrated how uncertainty and decision making can be formalised in autonomous systems and deepened my commitment to pursuing robotics. I also wrote an essay on the effects of bias in AI for the Pembroke College Essay Competition, which helped me think critically about the societal impact of intelligent systems. Later, I participated in the UCL Project Impactive Challenge, working in a team of four to design a cupholder for individuals with cerebral palsy. Our team placed first out of nine teams from across London. While the project allowed me to apply and refine my 3D modelling skills, it also showed me how engineering solutions can meaningfully improve accessibility and everyday life. Together, these early experiences shaped my career goal which is to work at the intersection of robotics and healthcare, using advances in autonomous systems to develop technologies that support both patients and clinicians.
