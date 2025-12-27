@@ -61,9 +61,10 @@ For this project, an Arduino-based Stirling engine was used to record a range of
 
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
+<!-- TO NOT EXPOSRE PERSONAL COURSEOWKR ONLINE>
+<!--div style="text-align: center; margin-top: 20px;">
   <a href="/files/Arduino_Stirling_Engine_Project.ipynb" download>Stirling Engine Analysis Jupyter Notebook</a>
-</div>
+</div-->
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">LVAC Impeller Manufacturing and Design Module Project</h2>
 
@@ -99,9 +100,10 @@ The final impeller was SLS-printed and tested using an industrial-grade pump, ac
 
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
+<!-- TO NOT EXPOSRE PERSONAL COURSEOWKR ONLINE>
+<!--div style="text-align: center; margin-top: 20px;">
   <a href="/files/Impeller_Project_Report.pdf" download>Impeller Project Project Report</a>
-</div>
+</div-->
 
 
 

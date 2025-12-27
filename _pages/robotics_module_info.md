@@ -134,9 +134,10 @@ A for loop was used to compute 50 trajectory points for x, y, and z between the 
 </p>
 
 <!--Need to figure out how to make the folder isntallable-->
-<div style="text-align: center;">
+<!-- TO NOT EXPOSRE PERSONAL COURSEOWKR ONLINE>
+<!--div style="text-align: center;">
   <a href="/files/Robotics_Module_Project.7z" download>Pick and Place Arm Project Files</a>
-</div>
+</div-->
 
 <h2 style="text-align: center; margin-bottom: 0.5em;">Year 2: Image Processing and Object Detection Project</h2>
 
@@ -176,6 +177,7 @@ The next part of the task focused on identifying the orientation and centroid of
        style="height: 200px; width: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 </div>
 
-<div style="text-align: center; margin-top: 20px;">
+<!-- TO NOT EXPOSRE PERSONAL COURSEOWKR ONLINE>
+<!--div style="text-align: center; margin-top: 20px;">
   <a href="/files/Image_Processing_Tasks_Code.7z" download>Image Detection Project Files</a>
-</div>
+</div-->
