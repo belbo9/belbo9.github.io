@@ -35,7 +35,7 @@ The device operates using the boustrophedron pattern, allowing the robot to log 
 <div style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
 
-  <div style="width: 700px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="width: 500px; height: 300px; position: relative; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
      <iframe
      src="https://www.youtube.com/embed/QI12ygJ2eks?si=VN35PWAEFPTNqFUQ"
      frameborder="0"
