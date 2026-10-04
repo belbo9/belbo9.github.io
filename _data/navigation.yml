@@ -24,6 +24,8 @@ main:
         url: /talks/year_1_work/
       - title: "Robotics Additional Module"
         url: /talks/robotics_module_info/
+      - title: "Bachelor Thesis: Automated Operating Theatre Air Velocity Mapping"
+        url: /talks/bachelors_thesis_work/
 
   - title: "Extracurricular Projects"
     url: /extracurricular_projects/
